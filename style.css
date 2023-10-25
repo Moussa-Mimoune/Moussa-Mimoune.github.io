@@ -1,0 +1,59 @@
+body{
+    background-color: #e0e0e0;
+    font-family: 'Georgia', serif;
+    width: 100%; /* Le conteneur prend 100% de la largeur disponible */
+    margin: 0 auto; /* Centre le contenu à l'intérieur du conteneur */
+    padding: 0 300px; /* Ajoute un peu d'espace intérieur (selon vos besoins) */
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+}
+a,h2{
+    color: #f06343;
+    font-weight: bold;
+}
+img{
+    max-width: 100%; 
+}
+#section_image{
+    border: 3px solid red;
+    border-radius: 1%;
+    background-color: #686869;
+    color: white;
+}
+table{
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+#head-table{
+    background-color: #4e4f4e;
+    color: white;
+    font-weight: bold;
+}
+#head-table th{
+   padding: 7px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #dbdbdb; /* Fond gris clair pour les lignes paires */
+}
+tr td:first-child{
+    font-weight: bold;
+}
+tr td{
+   padding: 7px;
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: #c4c4c4;
+ }
+tr{
+    border-radius: 10px; 
+}
+aside{
+    background-color: #c4c4c4;
+    color:#ab88bd;
+    border: 5px dashed #ab88bd;
+    padding: 10px;
+    font-weight: 600;
+}
